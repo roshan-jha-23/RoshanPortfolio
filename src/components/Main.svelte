@@ -69,12 +69,13 @@
 
         </div>
         <div class="relative shadow-2xl grid place-items-center">
-            <img
-                src={"images/profile.png"}
-                alt="Zetane Engine"
-                class="object-cover z-[2] max-h-[70vh]"
-            />
-        </div>
+    <img
+        src="https://media.licdn.com/dms/image/D5635AQFhODh8Q3mQQw/profile-framedphoto-shrink_400_400/0/1717097558166?e=1720051200&v=beta&t=bL7nYeAYhbABkNioLaFnrzChWpkRpTzCLqCYygy1Jns"
+        alt="Zetane Engine"
+        class="object-cover z-[2] max-h-[70vh]"
+    />
+</div>
+
         <!-- <div  class="flex p-0.5 relative max-w-[700px] w-full mx-auto">
             <div
                 class="absolute inset-0 overflow-hidden rounded-md flex items-center justify-center"
