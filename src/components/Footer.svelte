@@ -17,9 +17,9 @@
         </div>
         <p class="mx-auto text-sm opacity-70">or</p>
         <p class="">Hugh_jass@gmail.com</p> -->
-        <p><b class="pr-2">Email</b>roshan.cse120026@bppimt.ac.in</p>
+        <p><b class="pr-2">Email:</b>roshan.jha.201099@gmail.com</p>
         <p>
-            <b class="pr-2">GitHub</b>
+            <b class="pr-2">GitHub:</b>
             <a href="https://github.com/roshan-jha-23" target="_blank" class="text-violet-400"
                 >roshan-jha-23<sup class=""
                     ><span class="text-xs scale-75 pl-0.5"

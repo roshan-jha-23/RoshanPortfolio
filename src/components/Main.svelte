@@ -3,22 +3,40 @@
 
     let steps = [
         {
-            name: " OPEN SOURCE CONTRIBUTION",
-            icon: "fa-solid fa-database",
-            description:
-                "A curated list of SurrealDB resources, tools, utilities, and applications.",
-        },
-        {
-            name: "Email sender",
+            name: "Whisper Wire",
             icon: "fa-solid fa-envelope",
             description:
-                "The Email Sender application is a powerful solution crafted with Node.js, Express.js, and MongoDB, designed to seamlessly handle email-related tasks while offering a robust and scalable architecture. This application serves as a comprehensive testing tool, allowing developers to evaluate the performance and reliability of their machine learning models with a focus on email processing and natural language understanding.",
+                "Whisper Wire is an innovative application made using Next.js. It allows you to send messages to anyone following the link while keeping your identity secret. It uses modern tools such as NodeMailer for sending mail, Bcryptjs for hashing passwords, Zod for validations and checks, and MongoDB for the database. It also leverages Shadcn components and Tailwind CSS for inline styling.",
         },
         {
-            name: "Ticket app",
-            icon: "fa-solid fa-ticket",
+            name: "CoderStop",
+            icon: "fa-solid fa-code",
             description:
-                "The Ticketing Application is a dynamic and feature-rich solution built with Node.js, Express.js, and MongoDB, providing a seamless platform for managing and tracking tickets efficiently. Tailored to meet the demands of various industries, this application offers a robust framework for creating, updating, and monitoring tickets, ensuring a streamlined workflow and optimal user experience.",
+                "CoderStop is a dynamic platform for coders, built with Next.js and AcertinityUI, an open-source component library. This app serves as a one-stop platform for coders worldwide, allowing them to interact, make friends, and chat with other coders. It also provides features to view their current positions and see coders across the globe. Various API endpoints are used to help with GitHub, Codeforces, and LeetCode integration. Tools used include Shadcn, Zod, MongoDB, Redis, Auth.js, Next.js, JWT, Bcrypt, and Sender.",
+        },
+        {
+            name: "Phone-Case-Cobra",
+            icon: "fa-solid fa-snake",
+            description:
+                "Phone-Case-Cobra is an app made using Prisma for the database and Kinde for authentication. Zod is used for validation, and Stripe handles payments and webhooks. The app offers a comprehensive solution for phone case purchases with secure transactions.",
+        },
+        {
+            name: "Youtube-Twitter",
+            icon: "fa-brands fa-youtube",
+            description:
+                "Youtube-Twitter combines the functionalities of both platforms, allowing users to share and discuss videos and tweet their thoughts. It leverages Cloudinary for effortless image and video uploads, MongoDB for scalable data storage, Bcrypt for password and credential hashing for user protection, and Multer for smooth file handling. The front end is developed using Vite, a fast build tool for web development.",
+        },
+        {
+            name: "MusicAcedmia",
+            icon: "fa-solid fa-music",
+            description:
+                "MusicAcedmia is an app for a music school where music is taught. It is made using AI Certainty and Next.js, incorporating some components from Shadcn.",
+        },
+        {
+            name: "Chat App",
+            icon: "fa-solid fa-comments",
+            description:
+                "The Chat App is a real-time chat application made using Pusher.js, Redis, and the concept of Socket.io. It includes Zod for validation and Next.js for development. Users can add friends and have real-time conversations.",
         },
     ];
 
@@ -32,12 +50,12 @@
         {
             name: "Code Enthusiast on a Learning Journey",
             description:
-               "I am a full-stack developer passionate about coding and technology. While I may be relatively new to the industry, I am enthusiastic about tackling challenges and continuously expanding my skill set. My focus is on creating robust solutions and enhancing user experiences across the digital landscape. Eager to contribute, learn, and grow as a developer.",
+                "I am a full-stack developer passionate about coding and technology. While I may be relatively new to the industry, I am enthusiastic about tackling challenges and continuously expanding my skill set. My focus is on creating robust solutions and enhancing user experiences across the digital landscape. Eager to contribute, learn, and grow as a developer.",
         },
         {
             name: "Effective Communicator and Collaborator",
             description:
-               "While I may lean towards introversion, my commitment to clear and constructive communication remains unwavering. I thrive in fostering transparent dialogues and building strong connections within a team. Despite my introverted nature, I become a people person in the context of work, allowing me to contribute effectively and enhance productivity in any collaborative environment.",
+                "While I may lean towards introversion, my commitment to clear and constructive communication remains unwavering. I thrive in fostering transparent dialogues and building strong connections within a team. Despite my introverted nature, I become a people person in the context of work, allowing me to contribute effectively and enhance productivity in any collaborative environment.",
         },
     ];
 </script>
@@ -57,40 +75,23 @@
             </h2>
             <p class="text-base sm:text-lg md:text-xl">
                 My <span class="text-green-400"> favorite tech</span> includes Java(for DSA) and for Dev JavaScript
-                (React.js,NEXT.JS or SvelteKit), TailwindCSS, Node.js + Express.js , PostgreSQL & MongoDB
+                (React.js, NEXT.JS or SvelteKit), TailwindCSS, Node.js + Express.js , PostgreSQL & MongoDB
                 or Firebase/Firestore!
             </p>
-          <a href="https://twitter.com/roshan_jha_23" target="_blank">
-    <button class="blueShadow mx-auto lg:mr-auto lg:ml-0 text-base sm:text-lg md:text-xl poppins relative overflow-hidden px-6 py-3 group rounded-full bg-white text-slate-950">
-        <div class="absolute top-0 right-full w-full h-full bg-violet-400 opacity-20 group-hover:translate-x-full z-0 duration-200" />
-        <h4 class="relative z-9">Get in touch &rarr;</h4>
-    </button>
-</a>
-
+            <a href="https://twitter.com/roshan_jha_23" target="_blank">
+                <button class="blueShadow mx-auto lg:mr-auto lg:ml-0 text-base sm:text-lg md:text-xl poppins relative overflow-hidden px-6 py-3 group rounded-full bg-white text-slate-950">
+                    <div class="absolute top-0 right-full w-full h-full bg-violet-400 opacity-20 group-hover:translate-x-full z-0 duration-200" />
+                    <h4 class="relative z-9">Get in touch &rarr;</h4>
+                </button>
+            </a>
         </div>
         <div class="relative shadow-2xl grid place-items-center">
-    <img
-        src="https://media.licdn.com/dms/image/D5635AQFhODh8Q3mQQw/profile-framedphoto-shrink_400_400/0/1717097558166?e=1720051200&v=beta&t=bL7nYeAYhbABkNioLaFnrzChWpkRpTzCLqCYygy1Jns"
-        alt="Zetane Engine"
-        class="object-cover z-[2] max-h-[70vh]"
-    />
-</div>
-
-        <!-- <div  class="flex p-0.5 relative max-w-[700px] w-full mx-auto">
-            <div
-                class="absolute inset-0 overflow-hidden rounded-md flex items-center justify-center"
-            >
-                <div
-                    class="bg-gradient-to-r absolute inset-[-20px]  from-violet-800 to-indigo-800 specialSpin"
-                />
-            </div>
-
             <img
-                src={"images/zetane-engine.jpeg"}
-                alt="Zetane Engine"
-                class="w-full h-full object-cover z-[2]"
+                src="/images/profile.png"
+                alt="Profile Picture"
+                class="object-cover z-[2] max-h-[70vh]"
             />
-        </div> -->
+        </div>
     </section>
     <section class="py-20 lg:py-32 flex flex-col gap-24" id="projects">
         <div class="flex flex-col gap-2 text-center">
@@ -110,155 +111,84 @@
             <p>Watch the video</p>
         </a>
         <div class="grid grid-cols-1 lg:grid-cols-3 gap-12 lg:gap-10">
-            <Step step={steps[0]}>
-                <p>
-                   This contri was made to SurrealDB <strong
-                        class="text-violet-400"
-                        >React.js, SurrealDB & Node.js + Express.js!</strong
-                    > A curated list of SurrealDB resources, tools, utilities, and applications.
-                </p>
-            </Step>
-            <Step step={steps[1]}>
-                <p>
-                    Email Sender  is a Backend Application <strong
-                        class="text-violet-400">MongoDB</strong
-                    >,
-                    <strong class="text-violet-400">Node.js + Express.js</strong
-                    >
-                    & <strong class="text-violet-400">Firebase</strong> 
-                    that allows a user to authenticate and send Email presnet in database.
-                </p>
-            </Step>
-            <Step step={steps[2]}>
-                <p>
-                    The Ticket app is a <strong class="text-violet-400"
-                        >React & TailwindCSS</strong
-                    >
-                    web application, hosted on
-                    <strong class="text-violet-400">Netlify</strong>, Whether utilized for customer support, IT helpdesk, or project management, the Ticketing Application stands as a versatile and scalable solution, leveraging the strengths of Node.js, Express.js, and MongoDB to deliver a reliable and user-friendly platform for streamlined ticket management.
-                </p>
-            </Step>
+            {#each steps as step}
+                <Step {step}>
+                    <p>
+                        This contri was made to SurrealDB <strong class="text-violet-400">React.js, SurrealDB & Node.js + Express.js!</strong> A curated list of SurrealDB resources, tools, utilities, and applications.
+                    </p>
+                </Step>
+            {/each}
             <div>
-           <strong> <h1>And More To Come.....</h1> </strong>
-           </div>
+                <strong><h1>And More To Come.....</h1></strong>
+            </div>
         </div>
     </section>
     <section
         id="about"
         class="py-20 pt-10 lg:pt-16 lg:py-32 flex flex-col gap-16 sm:gap-20 md:gap-24 relative"
     >
-        <!-- <div class="z-[-1] bg-violet-950 w-screen left-1/2 -translate-x-1/2 top-0 h-full absolute"> </div> -->
-        <div
-            class="flex flex-col gap-2 text-center relative before:absolute before:top-0 before:left-0 before:w-2/3 before:h-1.5 before:bg-violet-700 after:absolute after:bottom-0 after:right-0 after:w-2/3 after:h-1.5 after:bg-violet-700 py-4"
-        >
+        <div class="flex flex-col gap-2 text-center relative before:absolute before:top-0 before:left-0 before:w-2/3 before:h-1.5 before:bg-violet-700 after:absolute after:bottom-0 after:right-0 after:w-2/3 after:h-1.5 after:bg-violet-700 py-4">
             <h6 class="text-large sm:text-xl md:text-2xl">
                 Want to know more?
             </h6>
             <h3 class="font-semibold text-3xl sm:text-4xl md:text-5xl">
-                A bit <span class="poppins text-violet-400">about</span> me.
+                A bit <span class="poppins text-violet-400">about</span> me
             </h3>
         </div>
-        <p class="mx-auto poppins font-semibold text-lg sm:text-xl md:text-2xl">
-            I am . . .
-        </p>
-        <div class="flex flex-col gap-20 w-full mx-auto max-w-[800px]">
-            {#each benefits as benefit, index}
-                <!-- <div class="flex flex-col gap-2 mx-auto">
-                    <div class="flex items-end gap-4">
-                        <p
-                            class="poppins text-6xl sm:text-7xl md:text-8xl text-slate-500 font-medium"
-                        >
-                            {benefit.metric}
-                        </p>
-                        <p
-                            class="text-xl sm:text-2xl md:text-3xl capitalize pb-2"
-                        >
-                            {benefit.name}
-                        </p>
-                    </div>
-                    <p class="text-center italic">- {benefit.description}</p>
-                </div> -->
-                <div class="flex gap-6 sm:gap-8">
-                    <p
-                        class="poppins text-4xl sm:text-5xl md:text-6xl text-slate-500 font-semibold"
-                    >
-                        0{index + 1}
-                    </p>
-                    <div class="flex flex-col gap-6 sm:gap-8">
-                        <h3 class="text-2xl sm:text-3xl md:text-5xl">
-                            {benefit.name}
-                        </h3>
-                        <p>{benefit.description}</p>
-                    </div>
-                </div>
-            {/each}
-        </div>
-        <h5 class={" text-2xl sm:text-3xl font-semibold text-center poppins "}>
-            The <span class="text-violet-400">Complete</span> Package
-        </h5>
         <div
-            class="flex flex-col overflow-x-scroll gap-10 max-w-[800px] mx-auto w-full"
+            class="grid grid-cols-1 lg:grid-cols-2 gap-12 md:gap-20 lg:gap-24"
         >
-            <table class="bg-white text-slate-700 rounded text-center">
-                <thead class={"border-b border-solid border-slate-200  "}>
-                    <tr class="">
-                        <th />
-                        <th class="whitespace-nowrap p-2 px-4">Candidate #1</th>
-                        <th class="whitespace-nowrap p-2 px-4">Candidate #2</th>
-                        <th class="whitespace-nowrap p-2 px-4">Candidate #3</th>
-                        <th
-                            class="bg-violet-700 text-white whitespace-nowrap p-4 px-8"
-                            >Me</th
+            <div
+                class="p-6 flex flex-col gap-6 sm:gap-8 md:gap-10 lg:gap-14 rounded-lg shadow-lg"
+            >
+                <h5 class="font-semibold text-2xl sm:text-3xl md:text-4xl">
+                    Where <span class="poppins text-violet-400">it began.</span>
+                </h5>
+                <div
+                    class="grid grid-cols-1 md:grid-cols-2 md:gap-8 md:divide-x-2 md:divide-solid md:divide-white gap-6 sm:gap-8 md:gap-10 lg:gap-14"
+                >
+                    {#each benefits as benefit}
+                        <div
+                            class="flex flex-col gap-4 md:gap-6 lg:gap-8 text-center md:text-left"
                         >
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr class="border-b border-solid border-slate-200">
-                        <td
-                            class="border-r border-solid border-white pl-4 pr-8 py-4 font-semibold text-sm"
-                            >Dedication</td
-                        >
-                        <td><i class="fa-solid fa-xmark text-slate-500" /></td>
-                        <td><i class="fa-solid fa-check text-slate-500" /></td>
-                        <td><i class="fa-solid fa-xmark text-slate-500" /></td>
-                        <td><i class="fa-solid fa-check text-green-500" /></td>
-                    </tr>
-                    <tr class="border-b border-solid border-slate-200">
-                        <td
-                            class="border-r border-solid border-white pl-4 pr-8 py-4 font-semibold text-sm"
-                            >Critical Thought</td
-                        >
-                        <td><i class="fa-solid fa-xmark text-slate-500" /></td>
-                        <td><i class="fa-solid fa-check text-slate-500" /></td>
-                        <td><i class="fa-solid fa-check text-slate-500" /></td>
-                        <td><i class="fa-solid fa-check text-green-500" /></td>
-                    </tr>
-                    <tr>
-                        <td
-                            class="border-r border-solid border-white pl-4 pr-8 py-4 font-semibold text-sm"
-                            >Interpersonal Skills</td
-                        >
-                        <td><i class="fa-solid fa-check text-slate-500" /></td>
-                        <td><i class="fa-solid fa-check text-slate-500" /></td>
-                        <td><i class="fa-solid fa-xmark text-slate-500" /></td>
-                        <td><i class="fa-solid fa-check text-green-500" /></td>
-                    </tr>
-                    <tr class="border-t border-solid border-slate-200">
-                        <td
-                            class="border-r border-solid border-white pl-4 pr-8 py-4 font-semibold text-sm"
-                            >Progamming Ability</td
-                        >
-                        <td><i class="fa-solid fa-check text-slate-500" /></td>
-                        <td><i class="fa-solid fa-xmark text-slate-500" /></td>
-                        <td><i class="fa-solid fa-check text-slate-500" /></td>
-                        <td><i class="fa-solid fa-check text-green-500" /></td>
-                    </tr>
-                </tbody>
-            </table>
+                            {#if benefit.metric}
+                                <h6
+                                    class="text-lg sm:text-xl md:text-2xl font-semibold"
+                                >
+                                    {benefit.metric}
+                                </h6>
+                            {/if}
+                            <p class="font-semibold">{benefit.name}</p>
+                            <p>{benefit.description}</p>
+                        </div>
+                    {/each}
+                </div>
+            </div>
+            <div class="shadow-xl rounded-lg h-[70vh]">
+                <img
+                    src="/images/profile.png"
+                    alt="Profile Picture"
+                    class="object-cover w-full h-full rounded-lg"
+                />
+            </div>
         </div>
-        <div class="mx-auto -mt-12 italic sm:hidden opacity-50">
-            <p>Scroll to see more &rarr;</p>
-        </div>
-        <p class="mx-auto">So why not invest?</p>
     </section>
 </main>
+
+<style>
+    .blueShadow {
+        box-shadow: 0px 0px 18px -4px #c4b5fd;
+    }
+
+    .blueShadow h4 {
+        z-index: 9;
+    }
+
+    .poppins {
+        font-family: "Poppins", sans-serif;
+    }
+
+    .pr-14 {
+        padding-right: 3.5rem;
+    }
+</style>
